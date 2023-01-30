@@ -1,0 +1,4 @@
+title: FreemasterController
+modelClass: Atashka\Masternachas\Models\Freemaster
+toolbar:
+    buttons: reorder_toolbar

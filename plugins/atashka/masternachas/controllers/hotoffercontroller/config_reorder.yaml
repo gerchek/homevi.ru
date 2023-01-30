@@ -1,0 +1,4 @@
+title: HotofferController
+modelClass: Atashka\Masternachas\Models\Hotoffer
+toolbar:
+    buttons: reorder_toolbar

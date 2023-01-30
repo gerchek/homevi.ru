@@ -1,0 +1,347 @@
+url = "/"
+layout = "index"
+title = "index"
+
+[hotoffer]
+
+[callthemaster]
+
+[freemaster]
+
+[popularorders]
+==
+{% partial "fix-menu" %}
+{% partial "action" %}
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 top-girl">
+                    <img src="{{ 'assets/img/master.png'|theme }}" alt="">
+                </div>
+                <div class="col-xs-6 header-txt">
+                    <h1>Быстрое решение 
+бытовых проблем</h1>
+                    <div class="hot-offer">
+                        <h4>Горячее предложение</h4>
+                        <div class="offer-head">
+                            <p class="thirty">
+                                30 <span>%</span>
+                            </p>
+                            <div class="discount-txt">
+                                <p>СКИДКА НА ВСЕ
+                                    <br>ВИДЫ УСЛУГ!</p>
+                            </div>
+                        </div>
+                        <p class="some-txt">Успейте получить скидку на все виды услуг!
+Время действия акции ограничено, осталось</p>
+                        <ul class="timer">
+                            <li>
+                                <p class="_day"></p>
+                                <span>дней</span>
+                            </li>
+                            <li>
+                                <p class="_hour"></p>
+                                <span>часов</span>
+                            </li>
+                            <li>
+                                <p class="_min"></p>
+                                <span>минут</span>
+                            </li>
+                            <li>
+                                <p class="_sec"></p>
+                                <span>секунд</span>
+                            </li>
+                        </ul>
+                        <p class="some-txt">Закажите ремонт сейчас</p>
+                        {% component 'hotoffer' %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+{% partial "stufs" %}
+   <section class="popular" id="prices">
+       <div class="container">
+        <h2>Популярные заказы</h2>
+           <div class="row">
+               <div class="col-xs-12">
+                   <table id="position1">
+                    <tr>
+                        <td>
+                            <input type="radio" name="type" value="0" id="ch1" checked>
+                            <label for="ch1">Выезд мастера<span style="color: red">*</span>
+                        </label>
+                    </td>
+                    <td>Бесплатно</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="type" value="650" id="ch2">
+                            <label for="ch2">Установка карниза</label>
+                    </td>
+                        <td>650 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="type" value="220" id="ch3">
+                            <label for="ch3">Монтаж ламината</label>
+                    </td>
+                        <td>220 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="type" value="120" id="ch4">
+                            <label for="ch4">Монтаж плинтуса</label>
+                    </td>
+                        <td>120 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="type" value="190" id="ch5">
+                            <label for="ch5">Поклейка обоев</label>
+                    </td>
+                        <td>190 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="type" value="1690" id="ch6">
+                            <label for="ch6">Установка двери без добора</label>  
+                    </td>
+                        <td>1690 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="type" value="300" id="ch7">
+                            <label for="ch7">Монтаж зеркала</label>
+                    </td>
+                        <td>300 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="type" value="590" id="ch8">
+                            <label for="ch8">Установка подоконника</label>
+                    </td>
+                        <td>590 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="type" value="350" id="ch9">
+                            <label for="ch9">Монтаж навесного шкафа</label>
+                    </td>
+                        <td>350 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="type" value="190" id="ch10">
+                            <label for="ch10">Монтаж розетки</label>
+                    </td>
+                        <td>190 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="type" value="190" id="ch11">
+                            <label for="ch11">Монтаж выключателя</label>
+                    </td>
+                        <td>190 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="type" value="350" id="ch12">
+                            <label for="ch12">Монтаж светильника</label>
+                    </td>
+                        <td>350 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="type" value="490" id="ch13">
+                            <label for="ch13">Монтаж люстры</label>
+                    </td>
+                        <td>490 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="type" value="790" id="ch14">
+                            <label for="ch14">Монтаж электрощита</label>
+                    </td>
+                        <td>790 ₽</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="type" value="1250" id="ch15">
+                            <label for="ch15">Установка стиральной машины</label>
+                    </td>
+                        <td>1250 ₽</td>
+                    </tr>
+                   </table>
+
+                   <table id="position2">
+                       <tr>
+                           <td>
+                            <input type="radio" name="type" value="1800" id="ct1">
+                            <label for="ct1">Установка ванны</label>
+                            </td>
+                            <td>1800 ₽</td>
+                       </tr>
+                       <tr>
+                           <td>
+                            <input type="radio" name="type" value="1490" id="ct2">
+                            <label for="ct2">Установка унитаза</label>
+                            </td>
+                            <td>1490 ₽</td>
+                       </tr>
+                       <tr>
+                           <td>
+                            <input type="radio" name="type" value="1190" id="ct3">
+                            <label for="ct3">Установка раковины</label>
+                            </td>
+                            <td>1190 ₽</td>
+                       </tr>
+                       <tr>
+                           <td>
+                            <input type="radio" name="type" value="790" id="ct4">
+                            <label for="ct4">Установка смесителя</label>
+                            </td>
+                            <td>790 ₽</td>
+                       </tr>
+                       <tr>
+                           <td>
+                            <input type="radio" name="type" value="1090" id="ct5">
+                            <label for="ct5">Установка полотенцесушителя</label>
+                            </td>
+                            <td>1090 ₽</td>
+                       </tr>
+                       <tr>
+                           <td>
+                            <input type="radio" name="type" value="1490" id="ct6">
+                            <label for="ct6">Монтаж радиатора, батареи</label>
+                            </td>
+                            <td>1490 ₽</td>
+                       </tr>
+                       <tr>
+                           <td>
+                            <input type="radio" name="type" value="1200" id="ct7">
+                            <label for="ct7">Установка варочной панели</label>
+                            </td>
+                            <td>1200 ₽</td>
+                       </tr>
+                       <tr>
+                           <td>
+                            <input type="radio" name="type" value="1250" id="ct8">
+                            <label for="ct8">Установка посудомойки</label>
+                            </td>
+                            <td>1250 ₽</td>
+                       </tr>
+                       <tr>
+                           <td>
+                            <input type="radio" name="type" value="1090" id="ct9">
+                            <label for="ct9">Монтаж телевизора на стену</label>
+                            </td>
+                            <td>1090 ₽</td>
+                       </tr>
+                       <tr>
+                           <td>
+                            <input type="radio" name="type" value="1160" id="ct10">
+                            <label for="ct10">Установка вытяжки</label>
+                            </td>
+                            <td>1160 ₽</td>
+                       </tr>
+                       <tr>
+                           <td>
+                            <input type="radio" name="type" value="1500" id="ct11">
+                            <label for="ct11">Уборка квартир</label>
+                            </td>
+                            <td>1500 ₽</td>
+                       </tr>
+                       <tr>
+                           <td>
+                            <input type="radio" name="type" value="190" id="ct12">
+                            <label for="ct12">Мойка окон</label>
+                            </td>
+                            <td>190 ₽</td>
+                       </tr>
+                       <tr>
+                           <td>
+                            <input type="radio" name="type" value="1000" id="ct13">
+                            <label for="ct13">Химчистка мягкой мебели</label>
+                            </td>
+                            <td>1000 ₽</td>
+                       </tr>
+                       <tr>
+                           <td>
+                            <input type="radio" name="type" value="5000" id="ct14">
+                            <label for="ct14">Кухни на заказ</label>
+                            </td>
+                            <td>5000 ₽</td>
+                       </tr>
+                       <tr>
+                           <td></td>
+                           <td></td>
+                       </tr>
+                   </table>
+               </div>
+               <div class="col-sm-12">
+                   <p style="position: relative; top:30px;"><span style="color: red">*</span> Цены уточняйте у операторов</p>
+                   <div class="sum-wrp">
+                       <p>Стоимость работ <span id="summ">0</span> ₽</p>
+                       <a href="#modalca" class="pop">оформить заказ</a>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+    <div class="zamer" id="zamer">
+        <div class="container">
+            <h2>Вызвать мастера</h2>
+            <div class="row">
+                <div class="col-xs-6 zamer-man">
+                    <img src="{{ 'assets/img/master2.jpg'|theme }}" alt="">
+                </div>
+                <div class="col-xs-6">
+                    {% component 'callthemaster' %}
+                </div>
+                
+            </div>
+        </div>
+    </div>
+{% partial "situation" %}
+    <section class="delivery" id="delivery">
+        <div class="container">
+            <h2>Бесплатный выезд мастера</h2>
+            <div class="row">
+                <div class="col-xs-6">
+                    <p class="some-txt">Мастер выезжает бесплатно.</p>
+                    <p class="some-txt">Выезд нашего специалиста возможен во время, максимально удобное клиенту: в будни и выходные с 8 часов утра до 24 часов вечера.</p>
+                    <p class="some-txt">Любая услуга выполняется без предоплаты.</p>
+                    <p class="some-txt">Оплатить услуги можно несколькими способами, вы можете выбрать наиболее удобный.</p>
+                    <p class="some-txt">Выезжаем на заказы не только в Москве, но и в Подмосковье, наш специалист бесплатно приедет по область!</p>
+                    
+                    {% component 'freemaster' %}
+                    
+                </div>
+                <div class="col-xs-6 deliv">
+                    <img src="{{ 'assets/img/delivery.png'|theme }}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+{% partial "schema" %}
+{% partial "testimonials" %}
+    <div id="map"></div>
+{% partial "footer" %}
+    <!-- popup -->
+    <div class="hiden" id="modalca">
+        <div class="modal-layer">
+            <a href="" id="close-bt">×</a>
+                
+
+            {% component 'popularorders' %}
+                
+        </div>
+    </div>
+    <!--end popup -->
+    <!-- content -->
+    <div id="outdated">
+        <h6>Ваш браузер устарел!</h6>
+        <p>Обновите ваш браузер для правильного отображения этого сайта. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/ru">Обновить мой браузер</a></p>
+        <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Закрыть">&times;</a></p>
+    </div>

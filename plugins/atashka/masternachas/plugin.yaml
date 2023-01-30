@@ -1,0 +1,28 @@
+plugin:
+    name: 'atashka.masternachas::lang.plugin.name'
+    description: 'atashka.masternachas::lang.plugin.description'
+    author: Atashka
+    icon: oc-icon-database
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Горячее предложение'
+        url: atashka/masternachas/hotoffercontroller
+        icon: icon-group
+        sideMenu:
+            side-menu-item:
+                label: 'Вызвать мастера'
+                url: atashka/masternachas/callthemastercontroller
+                icon: icon-truck
+            side-menu-item2:
+                label: 'Горячее предложение'
+                url: atashka/masternachas/hotoffercontroller
+                icon: icon-group
+            side-menu-item3:
+                label: 'Бесплатный выезд мастера'
+                url: atashka/masternachas/freemastercontroller
+                icon: icon-subway
+            side-menu-item4:
+                label: 'Популярные заказы'
+                url: atashka/masternachas/popularorderscontroller
+                icon: icon-shopping-cart

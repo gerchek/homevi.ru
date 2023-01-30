@@ -1,0 +1,10 @@
+name: HotofferController
+form: $/atashka/masternachas/models/hotoffer/fields.yaml
+modelClass: Atashka\Masternachas\Models\Hotoffer
+defaultRedirect: atashka/masternachas/hotoffercontroller
+create:
+    redirect: 'atashka/masternachas/hotoffercontroller/update/:id'
+    redirectClose: atashka/masternachas/hotoffercontroller
+update:
+    redirect: atashka/masternachas/hotoffercontroller
+    redirectClose: atashka/masternachas/hotoffercontroller

@@ -1,0 +1,4 @@
+title: CallthemasterController
+modelClass: Atashka\Masternachas\Models\Callthemaster
+toolbar:
+    buttons: reorder_toolbar

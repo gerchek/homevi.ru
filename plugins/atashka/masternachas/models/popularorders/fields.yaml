@@ -1,0 +1,21 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    tel:
+        label: 'Номер телефона'
+        span: auto
+        type: text
+    time:
+        label: 'Удобное время для звонка'
+        span: auto
+        type: text
+    selected_type_name:
+        label: 'имя заказа'
+        span: auto
+        type: text
+    selected_type_price:
+        label: 'цена заказа'
+        span: auto
+        type: text

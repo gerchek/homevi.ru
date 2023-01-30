@@ -1,0 +1,13 @@
+columns:
+    id:
+        label: id
+        type: number
+    name:
+        label: name
+        type: text
+    time:
+        label: time
+        type: text
+    created_at:
+        label: created_at
+        type: datetime

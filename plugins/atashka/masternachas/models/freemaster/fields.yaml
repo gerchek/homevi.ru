@@ -1,0 +1,17 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    tel:
+        label: 'Номер телефона'
+        span: auto
+        type: text
+    time:
+        label: 'дата для замера'
+        span: auto
+        type: text
+    address:
+        label: 'Адрес выезда'
+        span: auto
+        type: text

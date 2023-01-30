@@ -1,0 +1,10 @@
+name: PopularOrdersController
+form: $/atashka/masternachas/models/popularorders/fields.yaml
+modelClass: Atashka\Masternachas\Models\Popularorders
+defaultRedirect: atashka/masternachas/popularorderscontroller
+create:
+    redirect: 'atashka/masternachas/popularorderscontroller/update/:id'
+    redirectClose: atashka/masternachas/popularorderscontroller
+update:
+    redirect: atashka/masternachas/popularorderscontroller
+    redirectClose: atashka/masternachas/popularorderscontroller

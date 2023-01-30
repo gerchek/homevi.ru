@@ -1,0 +1,16 @@
+columns:
+    id:
+        label: id
+        type: number
+    selected:
+        label: selected
+        type: text
+    name:
+        label: name
+        type: text
+    time:
+        label: time
+        type: text
+    created_at:
+        label: created_at
+        type: datetime

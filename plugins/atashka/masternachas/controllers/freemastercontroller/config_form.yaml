@@ -1,0 +1,10 @@
+name: FreemasterController
+form: $/atashka/masternachas/models/freemaster/fields.yaml
+modelClass: Atashka\Masternachas\Models\Freemaster
+defaultRedirect: atashka/masternachas/freemastercontroller
+create:
+    redirect: 'atashka/masternachas/freemastercontroller/update/:id'
+    redirectClose: atashka/masternachas/freemastercontroller
+update:
+    redirect: atashka/masternachas/freemastercontroller
+    redirectClose: atashka/masternachas/freemastercontroller

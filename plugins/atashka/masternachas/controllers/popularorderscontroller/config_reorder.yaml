@@ -1,0 +1,4 @@
+title: PopularOrdersController
+modelClass: Atashka\Masternachas\Models\Popularorders
+toolbar:
+    buttons: reorder_toolbar

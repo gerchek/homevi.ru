@@ -1,0 +1,10 @@
+name: CallthemasterController
+form: $/atashka/masternachas/models/callthemaster/fields.yaml
+modelClass: Atashka\Masternachas\Models\Callthemaster
+defaultRedirect: atashka/masternachas/callthemastercontroller
+create:
+    redirect: 'atashka/masternachas/callthemastercontroller/update/:id'
+    redirectClose: atashka/masternachas/callthemastercontroller
+update:
+    redirect: atashka/masternachas/callthemastercontroller
+    redirectClose: atashka/masternachas/callthemastercontroller

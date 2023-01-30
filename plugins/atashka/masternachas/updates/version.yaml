@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table atashka_masternachas_hotoffer'
+    - builder_table_create_atashka_masternachas_hotoffer.php
+1.0.3:
+    - 'Created table atashka_masternachas_callthemaster'
+    - builder_table_create_atashka_masternachas_callthemaster.php
+1.0.4:
+    - 'Created table atashka_masternachas_freemaster'
+    - builder_table_create_atashka_masternachas_freemaster.php
+1.0.5:
+    - 'Created table atashka_masternachas_popularorders'
+    - builder_table_create_atashka_masternachas_popularorders.php

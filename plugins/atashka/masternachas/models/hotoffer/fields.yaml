@@ -1,0 +1,13 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    tel:
+        label: 'Телефон номер'
+        span: auto
+        type: text
+    time:
+        label: 'Удобное время для звонка'
+        span: auto
+        type: text
